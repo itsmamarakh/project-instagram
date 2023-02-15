@@ -1,0 +1,7 @@
+.follow {
+   border-radius: 5px;
+}
+
+.follow:hover {
+   background-color: blue;
+}

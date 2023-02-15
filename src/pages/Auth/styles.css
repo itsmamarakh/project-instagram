@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.instagram-font {
+    font-family: Cookie, cursive;
+}
+
+
+.bg-blue-inst {
+    background: #005c98;
+}
+
+.text-blue-inst {
+    color: #005c98;
+}
+
+
+
+body{
+    background:url(/public/images/photo-1633886038302-9710437f6ca2.jpeg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.instaConteiner {
+    border-radius: 20px;
+    background-color: #d4ecfb;
+    width: 350px;
+}
+
+.instaFooter {
+    background-color: #d4ecfb;
+    border-radius: 10px;
+}
+
+.instaSignUp {
+    background-color: #d4ecfb;
+    border-radius: 10px;
+}
+
+.footerDes {
+    font-weight: bold;
+}
+
+.forgot {
+    font-weight: 250;
+}
+
+.login:hover {
+    background-color: #005;
+}

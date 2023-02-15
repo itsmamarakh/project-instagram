@@ -1,0 +1,8 @@
+
+body{
+    background:url(/public/images/photo-1633886038290-6023143cd3ba.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height:100vh;
+}

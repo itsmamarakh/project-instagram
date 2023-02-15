@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@100;200;300;400&family=Raleway:wght@500&family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-logo{
+    font-family: Cookie, cursive;
+    font-size: 32px;
+}
+
+.navbar-logo a p h1 {
+    color: #fff;
+}
+
+.bg-blue-inst {
+    background: #005c98;
+}
+
+.text-blue-inst {
+    color: #005c98;
+}
+.is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background-color: #ffffff !important;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.searchCon {
+    width: 235px;
+    
+}
+
+.logo {
+    background-color: transparent;
+    fill: #FFFFFF;
+    color: #fff;
+    background-color: transparent;
+    /* visibility: hidden; */
+    filter: invert(100%);
+    /* opacity: 0.0 - 1.0; */
+    /* position: absolute; */
+    font-size: 20px;
+    height: 50px;
+}
+
+.icon {
+    color: #ffffff;
+}
+
+.followersCon {
+    border-radius: 20px;
+}
+
+.followerText {
+    text-align: center;
+}
+
+.searchText {
+    border-radius: 10px;
+}
+
+.followersText {
+    color: #fff;
+    font-weight: bold;
+}
